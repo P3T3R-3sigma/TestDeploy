@@ -66,7 +66,7 @@ qt_add_qml_module(appBundleNoAsset
     QML_FILES ${QmlFiles}
 #    RESOURCES ${AssetsFiles}
     NO_RESOURCE_TARGET_PATH
-    RESOURCES Images.qrc Videos.qrc
+   # RESOURCES Images.qrc Videos.qrc
 )
 
 # NOTE: for PUBLISHING, perform the following steps:
