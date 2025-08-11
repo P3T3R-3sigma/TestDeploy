@@ -45,17 +45,17 @@ felgo_configure_executable(appBundleNoAsset)
 #deploy_resources("${QmlFiles};${AssetsFiles}")
 
 
-configure_file(
-    ${CMAKE_SOURCE_DIR}/Images.rcc
-    ${CMAKE_BINARY_DIR}/Images.rcc
-    COPYONLY
-)
-
-configure_file(
-    ${CMAKE_SOURCE_DIR}/Videos.rcc
-    ${CMAKE_BINARY_DIR}/Videos.rcc
-    COPYONLY
-)
+# configure_file(
+#     ${CMAKE_SOURCE_DIR}/Images.rcc
+#     ${CMAKE_BINARY_DIR}/Images.rcc
+#     COPYONLY
+# )
+#
+# configure_file(
+#     ${CMAKE_SOURCE_DIR}/Videos.rcc
+#     ${CMAKE_BINARY_DIR}/Videos.rcc
+#     COPYONLY
+# )
 
 
 # Add QML files and resources to QML module to included them via QRC automatically:
